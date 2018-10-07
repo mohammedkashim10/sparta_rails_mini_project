@@ -24,7 +24,7 @@
         <td><%= tech.version %></td>
         <td><%= tech.desc %></td>
         <td><%= tech.logo %></td>
-        <td><%= tech.user_id %></td>
+        <td><%= tech.user.first_name %></td>
         <td><%= link_to 'Show', tech , class: 'btn btn-info'%></td>
         <td><%= link_to 'Edit', edit_technology_path(tech) , class: 'btn btn-info'%></td>
         <td><%= link_to 'Destroy', tech, method: :delete, data: { confirm: 'Are you sure?' } , class: 'btn btn-info'%></td>
