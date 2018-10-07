@@ -1,6 +1,6 @@
-class CreateTeches < ActiveRecord::Migration[5.2]
+class CreateTechnologies < ActiveRecord::Migration[5.2]
   def change
-    create_table :teches do |t|
+    create_table :technologies do |t|
       t.string :technology
       t.date :date_created
       t.integer :version

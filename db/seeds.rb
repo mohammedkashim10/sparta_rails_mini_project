@@ -8,7 +8,7 @@
 
 
 
-Tech.create([
+Technology.create([
   {
     technology: 'HTML',
     date_created:'1990-12-25',
